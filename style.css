@@ -1,0 +1,30 @@
+* {
+ margin: 0;
+}
+
+.nav-bar {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ border-bottom: solid 1px black;
+ padding: 20px 200px 20px 200px;
+ background-color: white;
+}
+
+ul {
+ list-style-type: none;
+}
+
+li {
+ float: left;
+ padding-left: 20px;
+}
+
+.nav-buttons li {
+ display: inline-block;
+}
+
+img.user {
+ width: 24px;
+ border-radius: 50px;
+}

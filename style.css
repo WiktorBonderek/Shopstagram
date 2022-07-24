@@ -205,6 +205,16 @@ img.user {
 
 /* POST */
 
+.post-wrapper .post-wrapper-text #more {
+  display: none;
+}
+
+.post-wrapper .post-wrapper-text button {
+  border: none;
+  background-color: transparent;
+  color: #969696;
+}
+
  .post-wrapper-head {
   padding: 5px 8px 5px 8px;
   display: flex;
@@ -280,9 +290,27 @@ img.user {
 
 .foot-links li {
  float: left;
- padding-right: 10px;
 }
 
+.footer-group {
+  margin-bottom: 20px;
+}
+
+.footer-group ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-group .foot-links {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-group .foot-links li a {
+  text-decoration: none;
+  color: #969696;
+}
 
 
 /* DESKTOP */
@@ -307,10 +335,6 @@ img.user {
   display: none;
  }
 
- .right-row {
-  display: none;
- }
-
  .two-columns-row {
   display: initial;
  }
@@ -318,4 +342,10 @@ img.user {
   width: 100%;
  }
 
+}
+
+@media (max-width:1000px) {
+  .right-row {
+    display: none;
+   }
 }
